@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "MoetezDb": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "cvangular",
+    "password": "",
+    "name": "MoetezDb",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
