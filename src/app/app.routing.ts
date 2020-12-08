@@ -8,6 +8,7 @@ import {LoginComponent} from './login/login.component';
 import {LoginGuard} from './guard/login.guard';
 import {LogoutGuard} from './guard/logout.guard';
 import {UpdateCvComponent} from './cvTech/update-cv/update-cv.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 const APP_ROUTING: Routes = [
@@ -20,7 +21,8 @@ const APP_ROUTING: Routes = [
   {path: '', component: CvComponent},
   {path: 'color/:default', component: ColorComponent},
   {path: 'login', component: LoginComponent, canActivate: [LogoutGuard]},
-  {path: '**', component: ErrorComponent}
+  {path: '**', component: ErrorComponent},
+  {path : 'contact' , component : ContactComponent}
 ];
 
 export const ROUTING = RouterModule.forRoot(APP_ROUTING);
