@@ -1,6 +1,5 @@
 import {RouterModule, Routes} from '@angular/router';
 import {CvComponent} from './cvTech/cv/cv.component';
-import {ColorComponent} from './color/color.component';
 import {AddCvComponent} from './cvTech/add-cv/add-cv.component';
 import {DetailComponent} from './cvTech/detail/detail.component';
 import {ErrorComponent} from './error/error.component';
@@ -19,10 +18,10 @@ const APP_ROUTING: Routes = [
       {path: ':id', component: DetailComponent}
     ]},
   {path: '', component: CvComponent},
-  {path: 'color/:default', component: ColorComponent},
+  {path : 'cont' , component : ContactComponent},
   {path: 'login', component: LoginComponent, canActivate: [LogoutGuard]},
   {path: '**', component: ErrorComponent},
-  {path : 'contact' , component : ContactComponent}
+  
 ];
 
 export const ROUTING = RouterModule.forRoot(APP_ROUTING);

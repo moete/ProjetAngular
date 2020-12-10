@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ColorComponent } from './color/color.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { FilsComponent } from './fils/fils.component';
 import { CvComponent } from './cvTech/cv/cv.component';
@@ -36,7 +35,6 @@ import { ContactComponent } from './contact/contact.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ColorComponent,
     FilsComponent,
     CvComponent,
     ListeCvComponent,
