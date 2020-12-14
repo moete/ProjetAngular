@@ -1,4 +1,9 @@
-# Sprint
+#to launch the loopbcack api 
+
+Run cd api 
+Run node .
+
+Sprint
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.12.
 
