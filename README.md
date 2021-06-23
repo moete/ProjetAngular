@@ -1,7 +1,11 @@
 ## to launch the loopbcack api 
+The backend of this project was simulateb by loopback api .
+to run this locally 
 
 Run cd api 
 Run node .
+
+
 
 ## Sprint
 
